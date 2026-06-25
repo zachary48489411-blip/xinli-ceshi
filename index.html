@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>蓝莓心理测试</title>
+<style>
+:root {
+  --bg: #fdf6f0;
+  --card: #ffffff;
+  --primary: #e8786e;
+  --text: #3d2c2c;
+  --text-light: #8c7b7b;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  padding: 30px 16px;
+  -webkit-font-smoothing: antialiased;
+}
+.container { max-width: 420px; margin: 0 auto; }
+.header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+.header-icon { font-size: 48px; margin-bottom: 8px; }
+.header-title { font-size: 24px; font-weight: 700; margin-bottom: 6px; }
+.header-desc { font-size: 14px; color: var(--text-light); }
+.card {
+  background: var(--card);
+  border-radius: 18px;
+  padding: 22px 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s;
+}
+.card:active { transform: scale(0.97); }
+.card-icon { font-size: 40px; flex-shrink: 0; }
+.card-info { flex: 1; }
+.card-title { font-size: 17px; font-weight: 700; margin-bottom: 4px; }
+.card-meta { font-size: 12px; color: var(--text-light); }
+.card-badge {
+  display: inline-block;
+  background: #fce4e4;
+  color: var(--primary);
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 8px;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.footer {
+  text-align: center;
+  font-size: 12px;
+  color: #c5b8b8;
+  margin-top: 24px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="header-icon">🧠</div>
+    <div class="header-title">蓝莓心理测试</div>
+    <div class="header-desc">有趣的人生小测试，花1分钟发现真实的自己</div>
+  </div>
+
+  <a class="card" href="02-测试网页/产出/01-测测你的隐藏性格/">
+    <div class="card-icon">🔮</div>
+    <div class="card-info">
+      <div class="card-title">测测你的隐藏性格</div>
+      <div class="card-meta">8题 · 约1分钟</div>
+      <span class="card-badge">🔥 热门</span>
+    </div>
+  </a>
+
+  <a class="card" href="02-测试网页/产出/02-你更适合恋爱还是独处/">
+    <div class="card-icon">💕</div>
+    <div class="card-info">
+      <div class="card-title">你更适合恋爱还是独处</div>
+      <div class="card-meta">8题 · 约1分钟</div>
+      <span class="card-badge">💘 情感</span>
+    </div>
+  </a>
+
+  <a class="card" href="02-测试网页/产出/03-测测你在职场中的隐藏优势/">
+    <div class="card-icon">💼</div>
+    <div class="card-info">
+      <div class="card-title">测测你在职场中的隐藏优势</div>
+      <div class="card-meta">8题 · 约1分钟</div>
+      <span class="card-badge">🚀 职场</span>
+    </div>
+  </a>
+
+  <div class="footer">更多测试即将上线 ✨</div>
+</div>
+</body>
+</html>
